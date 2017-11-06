@@ -28,7 +28,7 @@ var final_points = [
 	[237, 183, 18]
 ];
 
-tryRgb2($("#rainbowbox"), [0,0,0], final_points, true, 10);
+rainbowbox($("#rainbowbox"), [0,0,0], final_points, true, 10);
 </script>
 ```
 
