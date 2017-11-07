@@ -9,7 +9,7 @@
 
 ## How to Use
 <br>
-tryRgb2(ELEMENT, INITIAL_COLOR, FINAL_COLOR, LOOPING, TIMER_VELOCITY);
+rainbowbox(ELEMENT, { OPTIONS });
 <br>
 <br>
 
@@ -28,7 +28,14 @@ var final_points = [
 	[237, 183, 18]
 ];
 
-rainbowbox($("#rainbowbox"), [0,0,0], final_points, true, 10);
+rainbowbox($("#rainbowbox"), {
+
+	to: [ [ 255,0,0 ], [ 0,255,0 ] ],
+	from: [0,0,0],
+	animated: true,
+	velocity: 15
+
+});
 </script>
 ```
 
