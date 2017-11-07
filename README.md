@@ -30,7 +30,7 @@ var final_points = [
 
 rainbowbox($("#rainbowbox"), {
 
-	to: [ [ 255,0,0 ], [ 0,255,0 ] ],
+	to: final_points,
 	from: [0,0,0],
 	animated: true,
 	velocity: 15
